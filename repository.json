@@ -1,19 +1,17 @@
 {
+  "$schema": "sublime://packagecontrol.io/schemas/repository",
+
   "schema_version": "4.0.0",
 
-  "repositories": [
+  "packages": [
     {
-      "packages": [
+      "name": "Word navigate",
+      "details": "https://github.com/Pyrdon/Sublime-Word-Navigate",
+      "labels": ["code navigation", "search", "text navigation"],
+      "releases": [
         {
-          "name": "Word navigate",
-          "details": "https://github.com/Pyrdon/Sublime-Word-Navigate",
-          "labels": ["code navigation", "search", "text navigation"],
-          "releases": [
-            {
-              "sublime_text": ">=4132",
-              "tags": true
-            }
-          ]
+          "sublime_text": ">=4132",
+          "tags": true
         }
       ]
     }
